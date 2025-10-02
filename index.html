@@ -118,10 +118,10 @@
             <article class="card reveal" aria-labelledby="pkg-basic-title">
               <header>
                 <h3 id="pkg-basic-title">Basic Smash</h3>
-                <p class="price"><span aria-hidden="true">$</span>39</p>
+                <p class="price"><span aria-hidden="true">₹</span>500</p>
               </header>
               <ul role="list" class="card-list">
-                <li>15 minutes</li>
+                <li>20 minutes</li>
                 <li>One crate of glassware</li>
                 <li>Protective gear included</li>
               </ul>
@@ -133,7 +133,7 @@
             <article class="card reveal" aria-labelledby="pkg-power-title">
               <header>
                 <h3 id="pkg-power-title">Power Smash</h3>
-                <p class="price"><span aria-hidden="true">$</span>69</p>
+                <p class="price"><span aria-hidden="true">₹</span>1,000</p>
               </header>
               <ul role="list" class="card-list">
                 <li>30 minutes</li>
@@ -148,7 +148,7 @@
             <article class="card reveal highlight" aria-labelledby="pkg-group-title">
               <header>
                 <h3 id="pkg-group-title">Group Mayhem</h3>
-                <p class="price"><span aria-hidden="true">$</span>129</p>
+                <p class="price"><span aria-hidden="true">₹</span>2,500</p>
               </header>
               <ul role="list" class="card-list">
                 <li>45 minutes</li>
@@ -159,6 +159,25 @@
                 Select
               </button>
             </article>
+
+            <article class="card reveal highlight" aria-labelledby="pkg-corporate-title">
+              <header>
+                <h3 id="pkg-corporate-title">Corporate Smash</h3>
+                  <p class="price"><span aria-hidden="true">₹</span>5,000</p>
+              </header>
+                <ul role="list" class="card-list">
+                  <li>60 minutes</li>
+                  <li>Team of up to 10</li>
+                  <li>Customizable smashables & team challenges</li>
+                  <li>Includes professional photos & video</li>
+                  <li>Refreshments included</li>
+                  <p class="badge">Best for Teams</p>
+                </ul>
+                <button class="btn btn-primary select-package" data-package="Corporate Smash" data-price="5000" aria-label="Select Corporate Smash package and go to booking">
+                  Select
+                </button>
+              </article>
+            
           </div>
         </div>
       </section>
@@ -234,6 +253,7 @@
                   <option>Basic Smash</option>
                   <option>Power Smash</option>
                   <option>Group Mayhem</option>
+                  <option>Corporate Smash</option>
                 </select>
                 <p class="error" id="err-package" role="status" aria-live="polite"></p>
               </div>
@@ -302,3 +322,4 @@
     <script src="app.js" defer></script>
   </body>
 </html>
+
