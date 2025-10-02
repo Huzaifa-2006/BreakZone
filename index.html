@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Break Zone | Rage Room</title>
+    <meta name="description" content="Break Zone — the bold rage room experience. Smash stress with safe, guided sessions. Book your package today." />
+    <meta name="theme-color" content="#E63946" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Break Zone Home">Break<span>Zone</span></a>
+
+        <button
+          class="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#rules">Safety Rules</a></li>
+            <li><a href="#booking" class="cta">Book a Session</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+       HERO 
+      <section id="home" class="section hero" aria-labelledby="home-title">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <h1 id="home-title" class="title text-balance">
+              Smash Your Stress at Break Zone
+            </h1>
+            <p class="lead text-pretty">
+              Step into a safe, guided rage room experience. Gear up, go all out, and walk out lighter.
+            </p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#booking">Book Now</a>
+              <a class="btn btn-ghost" href="#packages">View Packages</a>
+            </div>
+          </div>
+          <div class="hero-stat reveal">
+            <div class="stat">
+              <strong aria-label="Over five thousand satisfied breakers">5k+</strong>
+              <span>Happy Breakers</span>
+            </div>
+            <div class="stat">
+              <strong aria-label="Average session length thirty minutes">30m</strong>
+              <span>Avg Session</span>
+            </div>
+            <div class="stat">
+              <strong aria-label="Three safety gear items included">3</strong>
+              <span>Gears Included</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       ABOUT 
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container grid-two">
+          <div class="reveal">
+            <h2 id="about-title" class="section-title">About Break Zone</h2>
+            <p>
+              Break Zone is a bold rage room designed for safe, cathartic release. We provide
+              top-grade safety gear, a curated selection of smashables, and a clean, controlled
+              environment. Whether you’re celebrating, de-stressing, or just curious—there’s a
+              package for you.
+            </p>
+            <ul class="checklist" role="list">
+              <li>Certified protective gear included</li>
+              <li>Curated smashables for every session</li>
+              <li>Guided orientation for first-timers</li>
+              <li>Private rooms for individuals or groups</li>
+            </ul>
+          </div>
+          <aside class="feature-card reveal" aria-label="Quick facts">
+            <h3 class="sr-only">Quick Facts</h3>
+            <dl class="feature-stats">
+              <div>
+                <dt>Location</dt>
+                <dd>Downtown Warehouse District</dd>
+              </div>
+              <div>
+                <dt>Hours</dt>
+                <dd>Mon–Sun, 10am–10pm</dd>
+              </div>
+              <div>
+                <dt>Age</dt>
+                <dd>18+ or 16+ with guardian</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+       PACKAGES 
+      <section id="packages" class="section" aria-labelledby="packages-title">
+        <div class="container">
+          <h2 id="packages-title" class="section-title text-balance">Choose Your Package</h2>
+          <div class="cards">
+            <article class="card reveal" aria-labelledby="pkg-basic-title">
+              <header>
+                <h3 id="pkg-basic-title">Basic Smash</h3>
+                <p class="price"><span aria-hidden="true">$</span>39</p>
+              </header>
+              <ul role="list" class="card-list">
+                <li>15 minutes</li>
+                <li>One crate of glassware</li>
+                <li>Protective gear included</li>
+              </ul>
+              <button class="btn btn-primary select-package" data-package="Basic Smash" data-price="39" aria-label="Select Basic Smash package and go to booking">
+                Select
+              </button>
+            </article>
+
+            <article class="card reveal" aria-labelledby="pkg-power-title">
+              <header>
+                <h3 id="pkg-power-title">Power Smash</h3>
+                <p class="price"><span aria-hidden="true">$</span>69</p>
+              </header>
+              <ul role="list" class="card-list">
+                <li>30 minutes</li>
+                <li>Mixed glass + electronics</li>
+                <li>Protective gear included</li>
+              </ul>
+              <button class="btn btn-primary select-package" data-package="Power Smash" data-price="69" aria-label="Select Power Smash package and go to booking">
+                Select
+              </button>
+            </article>
+
+            <article class="card reveal highlight" aria-labelledby="pkg-group-title">
+              <header>
+                <h3 id="pkg-group-title">Group Mayhem</h3>
+                <p class="price"><span aria-hidden="true">$</span>129</p>
+              </header>
+              <ul role="list" class="card-list">
+                <li>45 minutes</li>
+                <li>Group of up to 4</li>
+                <li>Mixed smashables</li>
+              </ul>
+              <button class="btn btn-primary select-package" data-package="Group Mayhem" data-price="129" aria-label="Select Group Mayhem package and go to booking">
+                Select
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+       SAFETY RULES 
+      <section id="rules" class="section" aria-labelledby="rules-title">
+        <div class="container">
+          <h2 id="rules-title" class="section-title">Safety Rules</h2>
+          <ol class="rules-list">
+            <li>Wear all provided safety gear at all times.</li>
+            <li>Follow staff instructions and orientation.</li>
+            <li>No open-toe shoes; closed-toe footwear required.</li>
+            <li>Do not swing at other participants or staff.</li>
+            <li>Report any injuries or hazards immediately.</li>
+            <li>Only smash approved items inside designated zones.</li>
+          </ol>
+          <p class="muted">
+            By booking, you agree to adhere to all rules and sign the waiver on-site.
+          </p>
+        </div>
+      </section>
+
+       BOOKING 
+      <section id="booking" class="section" aria-labelledby="booking-title">
+        <div class="container">
+          <h2 id="booking-title" class="section-title">Book a Session</h2>
+
+          <form id="booking-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="fullName">Full name</label>
+                <input id="fullName" name="fullName" type="text" autocomplete="name" required
+                  placeholder="Alex Johnson" />
+                <p class="error" id="err-fullName" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required
+                  placeholder="alex@example.com" />
+                <p class="error" id="err-email" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" pattern="[0-9+()\\s-]{7,}" required
+                  placeholder="+1 (555) 123-4567" />
+                <p class="error" id="err-phone" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="date">Date</label>
+                <input id="date" name="date" type="date" required />
+                <p class="error" id="err-date" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="time">Time</label>
+                <input id="time" name="time" type="time" required min="10:00" max="22:00" />
+                <p class="error" id="err-time" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="participants">Participants</label>
+                <input id="participants" name="participants" type="number" min="1" max="8" required value="1" />
+                <p class="error" id="err-participants" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="package">Package</label>
+                <select id="package" name="package" required>
+                  <option value="" disabled selected>Select a package</option>
+                  <option>Basic Smash</option>
+                  <option>Power Smash</option>
+                  <option>Group Mayhem</option>
+                </select>
+                <p class="error" id="err-package" role="status" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field full">
+                <label for="notes">Notes (optional)</label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Any special requests?"></textarea>
+              </div>
+
+              <div class="form-check full">
+                <input id="agree" name="agree" type="checkbox" required />
+                <label for="agree">I have read and agree to the Safety Rules.</label>
+                <p class="error" id="err-agree" role="status" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Confirm Booking</button>
+              <button class="btn btn-ghost" type="reset">Reset</button>
+            </div>
+
+            <div class="form-status" aria-live="polite" role="status" id="form-status" aria-atomic="true"></div>
+          </form>
+        </div>
+      </section>
+
+       CONTACT 
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container grid-two">
+          <div class="reveal">
+            <h2 id="contact-title" class="section-title">Contact</h2>
+            <address class="contact">
+              <p><strong>Address:</strong> 1200 Warehouse Ave, Suite B, Your City</p>
+              <p><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></p>
+              <p><strong>Email:</strong> <a href="mailto:hey@breakzone.com">hey@breakzone.com</a></p>
+              <p><strong>Hours:</strong> Mon–Sun, 10am–10pm</p>
+            </address>
+            <p class="muted">Parking available on-site. Enter via loading bay.</p>
+          </div>
+          <div class="contact-cta reveal">
+            <h3 class="section-subtitle">Group Events & Corporate</h3>
+            <p>Planning a team offsite or birthday bash? We offer custom packages.</p>
+            <a class="btn btn-primary" href="#booking">Request Availability</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Break Zone. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <ul class="footer-nav">
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#booking">Book</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <noscript>
+      <div class="noscript">JavaScript is disabled. Some features (menu, animations, validation) will be limited.</div>
+    </noscript>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
